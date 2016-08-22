@@ -1,0 +1,31 @@
+<div class="aside-link">
+    <a ui-sref="route3">The Rooks</a>
+    <a ui-sref="route2" class="active">The Music</a> 
+    <a ui-sref="route4">The Story</a>
+</div>
+
+<!--<h3 class="sidebar-title">Song List</h3>--><br>
+<div class="song" data-ng-repeat="song in songs | filter: songFilter | orderBy: 'order' ">
+    <div class="song-title">
+        
+        {{$index+1}}.  {{song.name}} 
+
+        <div id="play-buttons" ng-show="song.meta.mp3">
+            <span class="btn-play" title="Play Song"  playsong id="{{song.id}}" src="{{song.meta.mp3}}" id="{{song.id}}play" ><i class="fa fa-volume-up" aria-hidden="true"></i></span> 
+            <span class="btn-play" title="Pause Song" pausesong id="{{song.id}}" src="{{song.meta.mp3}}" id="{{song.id}}play"><i class="fa fa-volume-down" aria-hidden="true"></i></span>
+            <span class="btn-play" title="Lyrics" lyrics ng-show="song.meta.lyrics" id="{{song.id}}"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+        </div>
+
+    </div>
+
+    <div class="song-body">{{song.artist}}</div>
+
+</div>
+<div><a ui-sref="music-all" class="music-all">View All Songs</a>
+</div>
+
+    <video id="video-player">
+        <source src="" type="audio/mpeg">
+    </video>
+
+

@@ -1,0 +1,221 @@
+.member-img-container {
+    float: right;
+    font-size: .7rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #9d9d9d;
+}
+
+.img-resize {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+p {
+    margin: 1px 15px;
+}
+
+a{ color: $yellow;}
+a:hover{ color: yellow;}
+
+.member-img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 10%;
+    opacity : .6;
+}
+
+.member-title {
+    font-size: 1.2rem;
+    color: #643900;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.member {
+    margin: 1px;
+    padding: 5px 5px 35px 5px;
+}
+
+.member-body {
+    color: #000;
+    font-size: .9em;
+    line-height: 20px;
+}
+
+.page-title{
+    
+}
+.song-img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+}
+
+.song-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #d1ad68;
+}
+
+.song {
+    margin: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.song-body {
+    color: #aa8;
+    font-size: 1em;
+}
+
+.sidebar-title{
+    color:#aa8;
+    text-align: center;
+}
+.menu-logo {
+    padding-left: 20px;
+}
+
+p {
+    margin: 10px 10px;
+    font-size: 1em;
+}
+
+.about {
+    font-size: 1.1em;
+}
+
+.rooks-icon {
+    background-image: url($logo-title-icon);
+    padding-top: 1px;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    background-size: contain;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+#band-photo {
+    border-radius: 1%;
+    -webkit-filter: grayscale(100%);    
+    -moz-filter: grayscale(100%);    
+    -ms-filter: grayscale(100%);    
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 4s ease-out 0s;
+    -moz-transition: all 4s ease-out 0s;
+    -ms-transition: all 4s ease-out 0s;
+    -o-transition: all 4s ease-out 0s;
+    transition: all 4s ease-out 0s;
+    opacity:.8;
+}
+
+#band-photo:hover {
+    border-radius: 1%;
+    -webkit-filter: grayscale(1%);
+    filter: grayscale(0%);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    
+    }
+
+.hide-band {
+    border-radius: 1%;
+    -webkit-filter: grayscale(1%);
+    filter: grayscale(0%);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    
+    }
+    
+.lineitem {
+    line-height: 1.8em;
+    font-size: 1.7em;
+    display: inline;
+    font-family:$font-intro-main;
+    text-align: center;
+}
+
+.lineitem span {
+    padding: 0.2em;
+    box-shadow: 0.2em 0 0 rgba(#808080  , 0.7), -0.2em 0 0 rgba(#808080, 0.7);
+    background-color: #808080;
+    background-color: rgba(#808080, 0.4);
+    
+}
+
+.active{font-weight:bold;color:yellow !important;}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: $black;
+    color: $white;
+    font-size: .8em;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: center;
+    padding-top:5px;
+}
+.footer a {color:$font-color-item-title;}
+
+header {
+    font-size: .8em;
+    text-align: center;
+    display: block;
+    line-height: 30px;     
+    
+    color: $white;
+}
+
+header img.logo {
+    width: 33px;
+    float: left;
+    padding: 3px 0px 3px 10px;
+}
+
+
+video {height:1px;}
+
+
+#play-buttons{
+    
+    margin-left: 20px;
+    padding-left: 20px;
+    background: rgba(#000, 0.2);
+    display: inline;
+    span { 
+     
+         color: $yellow;
+         font-family: $font-family-base;
+         font-size: 1.2em;
+         padding-right: 20px;
+         cursor: pointer;
+    }
+     span:hover{color: yellow;}
+}
+
+#band-photo-container{color: $white;}
+
+
+.aside-link{display: none;}
+
+.music-all{float: right; font-size: .9em;}
+
+
+
+
+.rating{color: yellow;}

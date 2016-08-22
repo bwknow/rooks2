@@ -1,0 +1,40 @@
+/* SAS variables */
+
+
+$yellow				: #FCB711;
+$orange				: #F37021;
+$red				: #CC004C;
+$purple				: #6460AA;
+$blue				: #0089D0;
+$green				: #0DB14B;
+$white				: #fefefe;
+$black              : #0b0b0b;
+
+$facebook-blue          : #3b5998;
+$twitter-blue           : #00aced;
+$instagram-blue         : #125688;
+
+$font-size-base	    	: 16px;
+$font-color-item-title  : #d1ad68;
+$font-family-base		: 'Pathway Gothic One', Georgia, Serif;
+$font-title-main		: 'Archivo Black',sarif;
+$font-intro-main		: 'Pathway Gothic One',sarif;
+$color-title-main		: #f8f8f8;
+$body-background-image	: '../images/bestof/bw-band-bg1.jpg';
+$logo-title-icon		: '../images/bestof/rooks-icon.png';
+$header-background-image : '../images/speaker-grill.jpg';
+ 
+ 
+html{ font-size: $font-size-base;}
+body{
+    background-image: url($body-background-image);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: $black;
+    font-family: $font-family-base;
+    font-size: 1em;
+    color: $black;
+}

@@ -1,0 +1,84 @@
+
+.navbar {
+    background-image: url($header-background-image);
+    padding-top: 27px;
+    background-repeat: no-repeat;
+    background-position: 10% 20%;
+    background-size: cover;
+    height: 100px;
+    background-color: #141414;
+}
+
+.navbar-inverse .navbar-brand {
+
+	padding-left:50px;
+	color: $color-title-main;
+	font-size: 6.9em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight:800;
+	font-family:$font-title-main;
+	
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d;
+    z-index: 10000;
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+.well{
+	color: #ddd;
+    padding: 10px;
+    background-color:inherit;
+    border:0;
+    margin-bottom: 0;
+}
+
+.center{text-align: center;}
+
+.aside{background-color: rgba(51,51,51,.5);
+max-height: 500px;
+overflow: auto;
+}
+
+.aside-link {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    background-color:#040404;
+    a {
+       padding-left:10px;
+        display:inline;
+        color: #d1ad68;
+        font-size:1em;
+    }
+    a:hover {
+        color: yellow;
+        
+    }
+}
+
+article {
+    background-color: rgba(51, 51, 51, 0.5);
+   
+    width: auto;
+    max-height:460px;
+    overflow: auto;
+    margin: 0;
+    p { 
+        color: #aa8;
+        font-size: 1em;
+        margin: 0;
+        padding: 0 0 20px 0;
+        width: auto;
+    }
+}
+
+article header {
+    h1{   
+        margin: 0;
+        padding: 10px 0 20px 0;
+        color: $font-color-item-title;
+    }
+    h3{display: none;}
+}
